@@ -219,7 +219,7 @@ check_service_stat "srv1cv83"
 message "Create conf file for tech journal"
 
 sudo mkdir -p /opt/1C/v8.3/x86_64/conf
-sudo chmod o+w /opt/1C/v8.3/x86_64/conf/logcfg.xml
+sudo chmod o+w /opt/1C/v8.3/x86_64/conf
 sudo cp /fresh-install/conf/opt/1C/v8.3/x86_64/conf/logcfg.xml /opt/1C/v8.3/x86_64/conf/
 sudo chmod o-w /opt/1C/v8.3/x86_64/conf/logcfg.xml
 
