@@ -126,6 +126,7 @@ message "Infobases are published"
 
 sudo ufw allow 234
 sudo ufw allow 22
+sudo ufw allow 1541
 sudo ufw allow 1560
 sudo ufw enable
 sudo ufw status
