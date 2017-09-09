@@ -125,7 +125,7 @@ sudo chmod o-w "/var/www/1cfresh/int/$solution_base_name"
 message "Infobases are published"
 
 sudo ufw allow 234
-sudo ufw ssh
+sudo ufw allow 22
 sudo ufw allow 1560
 sudo ufw enable
 sudo ufw status
