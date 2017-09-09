@@ -278,7 +278,7 @@ check_service_stat "haspd"
 # 1C WS
 message "Add wsap24 library to apache"
 
-sudo chmod o+w /etc/apache2/mods-enabled/wsap24.load
+sudo chmod o+w /etc/apache2/mods-enabled
 sudo cp /fresh-install/conf/etc/apache2/mods-enabled/wsap24.load /etc/apache2/mods-enabled/
 sudo chmod o-w /etc/apache2/mods-enabled/wsap24.load
 
