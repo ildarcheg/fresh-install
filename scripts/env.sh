@@ -52,14 +52,14 @@ message "Update packages"
 cd
 sudo apt-get update -y
 
-message "Install tree tool"
-sudo apt-get --yes --force-yes install tree
+#message "Install tree tool"
+#sudo apt-get --yes --force-yes install tree
 
-message "Install Sublime Text 3 (run one by one)"
+#message "Install Sublime Text 3 (run one by one)"
 
-sudo add-apt-repository -y ppa:webupd8team/sublime-text-3
-sudo apt-get update
-sudo apt-get -yq --force-yes install sublime-text-installer
+#sudo add-apt-repository -y ppa:webupd8team/sublime-text-3
+#sudo apt-get update
+#sudo apt-get -yq --force-yes install sublime-text-installer
 
 
 # PREPARE INSTALLATION FOLDER
